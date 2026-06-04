@@ -1,0 +1,2 @@
+- [Grove Street Auth](grove-street-auth.md) — SHA256+salt auth, localStorage, mock fallback for offline use
+- [Grove Street Stack](grove-street-stack.md) — key tech decisions: Express 5 quirks, Orval limitations, RTL setup

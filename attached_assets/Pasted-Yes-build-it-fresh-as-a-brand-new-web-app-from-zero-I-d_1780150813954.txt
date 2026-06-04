@@ -1,0 +1,651 @@
+Yes, build it fresh as a brand new web app from zero.
+
+I do not have an existing frontend project to paste.
+I want you to build the full website from the beginning.
+
+Project name:
+Grove Street
+
+Website language:
+Arabic first
+RTL layout
+English can be secondary later
+
+Main idea:
+Grove Street is an Arabic gaming top-up and digital services marketplace.
+
+The website allows users to:
+- create an account
+- log in
+- charge wallet balance
+- buy game top-ups
+- buy digital services
+- buy social media services
+- buy subscriptions
+- buy and sell gaming accounts
+- track orders
+- collect points
+- level up through ranks
+- redeem rewards using points
+- contact support
+- verify their account
+- use a profile dashboard
+
+The website also has an admin dashboard where the admin can manage:
+- users
+- orders
+- wallet deposits
+- games
+- products
+- services
+- advertisements
+- rewards
+- ranks
+- account listings
+- verification requests
+- support tickets
+- site settings
+
+Brand identity:
+The website name is Grove Street.
+
+The style should feel like a premium street gaming marketplace:
+- strong
+- dark
+- clean
+- luxury
+- modern
+- green and black
+- Arabic gamer-focused
+- not childish
+- not messy
+- not generic
+
+Important copyright rule:
+Do not use official GTA assets.
+Do not use GTA logos.
+Do not use CJ images.
+Do not include GTA music.
+Do not include copyrighted voices.
+Only create an original street-gaming inspired identity.
+Prepare audio/image placeholders so I can add my own files later manually.
+
+Main colors:
+Use a black and green identity.
+
+Suggested color direction:
+- deep black background
+- dark green main brand color
+- bright green accent
+- white text
+- smoky gray secondary text
+- very small orange/brown accents only for the cigarette background element
+
+Do not use purple.
+Do not use too many colors.
+Do not overuse neon.
+Keep the design premium and clean.
+
+Main visual idea:
+The background should have a custom street atmosphere.
+
+Add subtle decorative cigarette elements in the background:
+- small cylinder shape
+- orange/brown filter in the back
+- white front
+- very soft smoke
+- low opacity
+- slow movement
+- lightweight
+- should not slow down mobile phones
+- should not cover text
+- should not be annoying
+
+Add a small original street-style mascot/runner near the bottom of the screen:
+- not CJ
+- not a GTA character
+- original silhouette or tiny pixel/3D-style character
+- runs or walks subtly near the bottom
+- should not block buttons
+- hide or reduce it on mobile if it affects usability
+
+Music system:
+Add optional background music support.
+
+The music should be:
+- optional
+- very low volume by default
+- controlled by a button
+- saved in localStorage
+- not autoplay loud
+- works only after user interaction if browser requires it
+
+Prepare this path:
+public/audio/background.mp3
+
+If the file does not exist, the website must not crash.
+
+Sound effects system:
+Prepare sound effects for purchases and achievements.
+
+I will add the files manually later.
+
+Prepare these paths:
+public/audio/sfx/purchase.mp3
+public/audio/sfx/big-purchase.mp3
+public/audio/sfx/rank-up.mp3
+public/audio/sfx/reward.mp3
+public/audio/sfx/success.mp3
+public/audio/sfx/error.mp3
+
+Use sounds for:
+- normal purchase
+- big purchase
+- rank up
+- reward redemption
+- wallet charge success
+- failed action
+
+Add settings:
+- تشغيل الموسيقى
+- إيقاف الموسيقى
+- مستوى صوت الموسيقى
+- تشغيل أصوات التفاعل
+- إيقاف أصوات التفاعل
+- مستوى صوت المؤثرات
+
+Save all audio settings in localStorage.
+
+Website pages:
+Build these pages:
+
+1. Home page
+2. Login page
+3. Register page
+4. Forgot password page
+5. Games and services page
+6. Product details page
+7. Checkout / order form
+8. Wallet page
+9. Orders page
+10. Points and rewards page
+11. Ranks page
+12. Account marketplace page
+13. Sell account page
+14. Profile page
+15. Verification page
+16. Support page
+17. Settings page
+18. Offers and advertisements page
+19. Admin dashboard
+20. Admin users page
+21. Admin orders page
+22. Admin deposits page
+23. Admin products page
+24. Admin ads page
+25. Admin rewards/ranks page
+26. Admin verification page
+27. Admin support tickets page
+
+Home page structure:
+The homepage should include:
+
+1. Hero section
+Show the brand name:
+Grove Street
+
+Arabic headline:
+شارعك الرقمي لشحن الألعاب والخدمات
+
+Short description:
+اشحن ألعابك واشتري الخدمات الرقمية وتابع طلباتك واجمع النقاط وارتق في الرتب من مكان واحد
+
+Buttons:
+ابدأ الشحن
+شحن المحفظة
+بيع حساب
+
+2. Live activity ticker
+A moving ticker that shows fake or real activities like:
+أحمد اشترى 1000 جوهرة فري فاير
+سارة شحنت 325 شدة ببجي
+محمد اشترى 1000 متابع إنستغرام
+ليان وصلت إلى رتبة دايموند
+ثائر استبدل 4000 نقطة بمكافأة
+خالد اشترى حساب ببجي مميز
+عمر شحن محفظته بنجاح
+
+The ticker should be smooth, not annoying, and should work on mobile.
+
+3. Advertisement carousel
+Add a premium 3D advertisement carousel.
+
+It should support 3 to 5 ads.
+Ads can be images.
+Ads can have title, description, button, and link.
+If only image exists, show image beautifully.
+
+The carousel should feel 3D and premium.
+It should be responsive.
+It should not crop images badly.
+It should work on mobile and desktop.
+
+4. Featured games
+Show games like:
+Free Fire
+PUBG Mobile
+Roblox
+FC Mobile
+Minecraft
+Clash Royale
+
+5. Trending products
+Examples:
+100 جوهرة فري فاير
+310 شدة ببجي
+1000 متابع إنستغرام
+يوتيوب بريميوم
+IPTV
+Roblox Robux
+
+6. Account marketplace preview
+Show gaming accounts for sale:
+Free Fire account
+PUBG account
+Roblox account
+Each card shows price, rank, level, seller, verification status.
+
+7. Wallet explanation
+Explain that users charge wallet first then buy from balance.
+
+8. Points and ranks preview
+Explain that users earn points from purchases and unlock ranks.
+
+Ranks:
+Bronze
+Silver
+Gold
+Platinum
+Diamond
+Legend
+
+9. How it works
+Three steps:
+اشحن محفظتك
+اختر الخدمة
+استلم طلبك وتابع حالته
+
+10. Final call to action
+Button to create account or start shopping.
+
+Navigation:
+Desktop:
+Use a professional sidebar or side navigation.
+
+Groups:
+
+Main:
+الرئيسية
+الشحن
+الألعاب والخدمات
+العروض والإعلانات
+سوق الحسابات
+
+User:
+البروفايل
+المحفظة
+طلباتي
+النقاط والرتب
+التوثيق
+الدعم الفني
+الإعدادات
+
+Admin:
+لوحة الإدارة
+المستخدمون
+الطلبات
+الإيداعات
+المنتجات
+الإعلانات
+المكافآت
+الرتب
+طلبات التوثيق
+تذاكر الدعم
+إعدادات الموقع
+
+Admin links must appear only for admin users.
+
+Mobile:
+Use a bottom navigation bar with icons:
+الرئيسية
+الشحن
+العروض
+طلباتي
+حسابي
+
+Other pages can be reached from profile/menu.
+
+Auth system:
+For now, build mock authentication.
+
+Login page:
+- email
+- password
+- show/hide password
+- login button
+- forgot password
+- register link
+
+Register page:
+- name
+- username
+- email
+- phone
+- password
+- confirm password
+
+Admin account:
+Create a protected mock admin:
+
+email:
+tthhaaeeeerr@gmail.com
+
+password:
+Thaermoh@@1234562008
+
+This account should:
+- access admin dashboard
+- show admin navigation
+- have a special owner verification badge
+- cannot be banned
+- cannot be deleted
+- cannot lose admin status
+
+Also reserve this email as admin:
+qtybhrbas774@gmail.com
+
+Normal verified users get a regular verification badge.
+The owner/admin gets a special premium badge.
+
+Wallet:
+Each user has wallet balance.
+Wallet page should show:
+- current balance
+- charge wallet button
+- payment method
+- deposit request form
+- transaction history
+- deposit status
+
+Deposit statuses:
+قيد المراجعة
+مقبول
+مرفوض
+
+Orders:
+Orders page should show:
+- order id
+- product name
+- price
+- status
+- date
+- required user data
+- earned points
+
+Statuses:
+قيد الانتظار
+قيد التنفيذ
+مكتمل
+ملغي
+مسترد
+
+Purchase flow:
+User selects product.
+User enters required data such as player ID or profile link.
+User pays from wallet.
+System deducts balance.
+System creates order.
+System adds points.
+System shows success animation.
+System adds activity to ticker.
+System plays purchase sound if enabled.
+
+Purchase success animation:
+Show a premium modal/card with:
+- green checkmark
+- wallet/card 3D style
+- product name
+- price
+- earned points
+- new wallet balance
+- buttons:
+عرض الطلب
+متابعة التسوق
+
+Points:
+Users earn points after purchases.
+Points should feel valuable, not too easy.
+
+Points page should show:
+- current points
+- rank
+- rank progress
+- rewards
+- locked rewards
+- redeem button
+- points history
+
+Reward examples:
+4000 نقطة مقابل 1000 جوهرة
+7000 نقطة مقابل شدات ببجي
+10000 نقطة مقابل خصم خاص
+15000 نقطة مقابل رصيد محفظة
+
+Ranks:
+Show current rank and progress to next rank.
+
+Ranks:
+Bronze
+Silver
+Gold
+Platinum
+Diamond
+Legend
+
+Arabic labels:
+برونزي
+فضي
+ذهبي
+بلاتيني
+دايموند
+أسطوري
+
+Account marketplace:
+Users can buy/sell game accounts.
+
+Account listing fields:
+- game
+- title
+- price
+- rank
+- level
+- region
+- description
+- images
+- seller
+- verification status
+- listing status
+
+Listing statuses:
+قيد المراجعة
+مقبول
+مرفوض
+مباع
+
+Users submit account listings.
+Admin approves before showing publicly.
+
+Verification:
+Users can submit verification request:
+- ID image
+- selfie image
+- name
+- phone
+
+Admin approves or rejects.
+Approved users get regular verified badge.
+Admin/owner has special owner badge.
+
+Support:
+Users can open support tickets.
+Ticket fields:
+- title
+- category
+- message
+- status
+- replies
+
+Statuses:
+مفتوحة
+قيد المعالجة
+محلولة
+مغلقة
+
+Settings:
+Settings page includes:
+- profile settings
+- color/theme settings
+- music toggle
+- music volume
+- sound effects toggle
+- effects volume
+- contact links
+- account preferences
+
+Offers page:
+Route:
+/offers
+
+Arabic name:
+العروض والإعلانات
+
+Show:
+- all ads
+- special campaigns
+- top-up offers
+- points offers
+- account market deals
+
+Admin dashboard:
+Admin can manage:
+- users
+- orders
+- deposits
+- games
+- products
+- ads
+- rewards
+- ranks
+- verification requests
+- support tickets
+- live activity
+- site settings
+
+Use mock data first.
+Prepare structure for real API later.
+
+Data models:
+Create organized mock data for:
+
+Users
+Games
+Products
+Orders
+WalletTransactions
+DepositRequests
+AccountListings
+Rewards
+Ranks
+SupportTickets
+VerificationRequests
+Advertisements
+LiveActivities
+SiteSettings
+
+Important frontend safety:
+The site must work without backend.
+Use mock/fallback data.
+No page should crash if data is missing.
+No page should crash with map is not a function or filter is not a function.
+
+Create safe helpers for arrays.
+Before using map/filter, normalize data.
+
+Example:
+If input is array, use it.
+If input.data is array, use it.
+If input.items is array, use it.
+If input.games is array, use it.
+If input.products is array, use it.
+Otherwise use empty array.
+
+Performance:
+Website must be smooth on mobile.
+Do not use heavy 3D libraries.
+Use CSS, SVG, canvas, or lightweight motion.
+Reduce animation on mobile if needed.
+Respect prefers-reduced-motion if possible.
+
+Responsive requirements:
+Test layout for:
+360px
+390px
+430px
+768px
+1024px
+desktop
+
+Fix:
+- horizontal scroll
+- overlapping text
+- tiny buttons
+- cropped ads
+- bottom nav covering content
+- broken cards
+- broken modals
+- tables too wide
+- unreadable text
+
+Contact links:
+Add official contact links in footer, support page, settings, and maybe sidebar.
+
+Instagram:
+thaerstore
+https://www.instagram.com/thaerstore
+
+WhatsApp:
+962779460107
+https://wa.me/962779460107
+
+Labels:
+إنستغرام
+واتساب
+تواصل معنا
+الدعم المباشر
+
+Final quality:
+The final website should feel like:
+a premium Arabic street gaming marketplace
+a strong green/black digital store
+a mobile-first app
+a wallet and rewards platform
+a modern gaming service hub
+
+Do not only create a static landing page.
+Build the full app experience with pages, mock data, state, navigation, and interactions.
+
+After building:
+Run it locally.
+Tell me the local URL.
+Confirm the frontend works.
+Confirm no console crashes.

@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Grove Street"
+version = "1.0.0"
+id = "artifacts/grove-street"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21956
+
+[services.development]
+run = "pnpm --filter @workspace/grove-street run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/grove-street", "run", "build" ]
+publicDir = "artifacts/grove-street/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21956"
+BASE_PATH = "/"

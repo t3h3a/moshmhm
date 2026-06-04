@@ -1,0 +1,841 @@
+Project transformation request
+
+I want to improve the existing Arabic Game Hub project and transform it into a full premium gaming marketplace brand called
+
+Grove Street
+
+Important
+Do not build a new project from scratch
+Do not delete the current app structure
+Do not remove working features
+Do not break routing
+Do not break the frontend
+Do not require backend to make the frontend work
+Use the current Arabic Game Hub project as the base and improve it deeply
+
+The new website name is
+Grove Street
+
+The website is an Arabic gaming top up and digital services marketplace
+It should include game charging digital services wallet orders rewards points ranks account marketplace advertisements live activity profile settings support verification and admin panel
+
+The new identity should feel like a premium street gaming store
+It should be bold dark green black street inspired and modern
+It should feel strong clean and professional not childish and not messy
+
+Very important copyright rule
+Do not use official GTA assets logos music voices characters or images directly unless I provide the files manually and confirm that I have rights to use them
+The design can be inspired by street gaming culture green black urban atmosphere and Grove Street style but it must be original
+Do not use CJ official character images
+Do not use GTA San Andreas official music by default
+Do not include copyrighted audio inside the project
+Prepare the system so I can add my own mp3 files later manually
+
+Brand name
+Replace the old brand name everywhere with
+Grove Street
+
+Update
+site title
+browser tab title
+navbar
+sidebar
+mobile navigation
+footer
+login page
+register page
+profile page
+wallet page
+orders page
+points page
+admin dashboard
+settings page
+success messages
+loading screens
+empty states
+notifications
+
+Brand concept
+Grove Street is a digital street marketplace for gamers
+It sells game top ups social media services digital subscriptions and game accounts
+It has a wallet system reward points ranks verification support and admin control
+The feeling should be
+street
+premium
+gaming
+fast
+trusted
+dark
+green
+bold
+alive
+
+Main colors and visual identity
+Change the website colors to a green and black identity
+
+Use a dark black background
+Use deep green for brand elements
+Use lighter green for highlights
+Use white for main text
+Use smoky gray for secondary text
+Use small warm orange details only for the cigarette background element
+
+Avoid purple completely
+Avoid too many colors
+Avoid excessive neon
+Avoid noisy glowing borders
+Avoid childish gaming template style
+Avoid generic AI design
+
+Suggested color direction
+Deep black
+Dark green
+Grove green
+Light green accent
+White
+Smoky gray
+Small orange brown accent for the cigarette filter only
+
+Overall design
+The design must be premium and modern
+The layout must be organized and clear
+The site must work perfectly on desktop and mobile
+The desktop version should have a professional sidebar or navigation layout
+The mobile version should use a premium bottom navigation bar with clear icons
+
+Desktop navigation
+Use a professional sidebar or clean side navigation
+It should include organized groups
+
+Main
+الرئيسية
+الشحن
+الألعاب والخدمات
+العروض والإعلانات
+سوق الحسابات
+
+User
+البروفايل
+المحفظة
+طلباتي
+النقاط والرتب
+التوثيق
+الدعم الفني
+الإعدادات
+
+Admin
+لوحة الإدارة
+المستخدمون
+الطلبات
+الإيداعات
+المنتجات
+الإعلانات
+المكافآت
+الرتب
+طلبات التوثيق
+تذاكر الدعم
+إعدادات الموقع
+
+Admin links must appear only for admin accounts
+
+Mobile navigation
+On phones use bottom navigation icons
+The bottom navigation should be simple premium and easy to use
+It should include the most important pages only
+
+Suggested mobile nav
+الرئيسية
+الشحن
+العروض
+طلباتي
+حسابي
+
+Other pages can be accessible from profile or menu
+The mobile nav must not cover content
+It must be responsive and smooth
+Buttons must be large enough for touch
+
+Background concept
+Replace boring dots or simple backgrounds with a custom street inspired animated background
+
+Cigarette background element
+Add a small decorative cigarette style element in the background
+It should be subtle and original
+Shape
+small cylinder
+orange or brown filter at the back
+white front part
+soft smoke coming out
+very light opacity
+not distracting
+not promoting smoking as the main feature
+just a street style background decoration
+
+The cigarette elements should move slowly or float softly
+They must not make the phone lag
+They must not affect scrolling performance
+Use lightweight CSS SVG or simple canvas
+Do not use heavy 3D libraries
+On mobile reduce quantity or disable heavy animation
+
+Smoke effect
+Add very subtle transparent smoke
+Use low opacity
+Make it slow and calm
+It should give atmosphere without covering text
+
+Small running street character
+Add a small original street style character at the bottom of the screen
+It should be original and not a copy of CJ
+It can be a tiny silhouette pixel character or simple 3D mascot
+It can walk or run slowly near the bottom edge
+It should not block buttons
+It should not cover mobile navigation
+On mobile it should be smaller or hidden if it affects usability
+
+Music system
+Add an optional background music system
+
+The music should be inspired by a calm street west coast gaming atmosphere
+It should be very low volume
+Do not autoplay loud audio
+The default volume should be very low like 5 percent or 8 percent
+Add a toggle button
+تشغيل الموسيقى
+إيقاف الموسيقى
+
+Save the user choice in localStorage
+If the user turns off music it should stay off
+If browser blocks autoplay the site should wait until user interaction
+
+Do not include copyrighted GTA music
+Prepare the app to use a file that I can add later manually
+
+Expected path
+public/audio/background.mp3
+
+If the file exists use it
+If not show no error and keep the site working
+
+Sound effects system
+Add a sound effects system for purchases and achievements
+
+I will add the audio files manually later
+Prepare the code to support these paths
+
+public/audio/sfx/purchase.mp3
+public/audio/sfx/big-purchase.mp3
+public/audio/sfx/rank-up.mp3
+public/audio/sfx/reward.mp3
+public/audio/sfx/success.mp3
+public/audio/sfx/error.mp3
+
+Do not include copyrighted CJ voice files by yourself
+If I add voice files later the system should play them
+
+Sound events
+Normal purchase plays purchase sound
+Big purchase plays big purchase sound
+Rank up plays rank up sound
+Reward redemption plays reward sound
+Successful wallet charge plays success sound
+Failed action plays error sound
+
+Add settings
+تشغيل أصوات التفاعل
+إيقاف أصوات التفاعل
+مستوى صوت المؤثرات
+
+Save settings in localStorage
+
+Purchase success animation
+When a user buys anything show a premium success animation
+
+The animation should include
+3D style wallet or card
+green checkmark
+coins or diamonds moving softly
+item name
+price
+earned points
+new wallet balance
+short success message
+button to view order
+button to continue shopping
+
+Example Arabic text
+تم تنفيذ الطلب بنجاح
+تم خصم الرصيد من المحفظة
+حصلت على نقاط جديدة
+تمت إضافة العملية إلى نشاط المتجر
+
+The animation should feel exciting and rewarding
+It should be lightweight and smooth
+Do not use heavy 3D libraries unless already installed
+Use CSS animation or Framer Motion if available
+
+Live activity ticker
+Add a live activity ticker that makes the site feel alive
+
+It should show moving messages such as
+أحمد اشترى 1000 جوهرة فري فاير
+سارة شحنت 325 شدة ببجي
+محمد اشترى 1000 متابع إنستغرام
+ليان وصلت إلى رتبة دايموند
+ثائر استبدل 4000 نقطة بمكافأة
+خالد اشترى حساب ببجي مميز
+عمر شحن محفظته بنجاح
+نور اشترت عرض اليوم
+سيف باع حساب فري فاير
+مالك وصل إلى رتبة الأسطوري
+
+The ticker should be smooth
+Not annoying
+Not too fast
+Works on mobile
+Can be shown on homepage and dashboard
+When a user completes a purchase add a new activity to the ticker
+
+Advertisements
+The website must have a premium advertisement system
+
+Homepage ads
+The top homepage should include moving 3D advertising cards or banners
+The ads should be visually strong
+The ads can be 3 to 5 images
+I will provide the images manually
+They should appear in the current beautiful 3D card carousel if one exists
+Do not create a boring ads block if there is already a beautiful carousel
+Put the ad images inside the 3D cards
+
+Ad requirements
+3 to 5 images
+smooth movement
+3D card feeling
+responsive
+not cropped badly
+clear on mobile
+clear on desktop
+can have title description button
+but image only should also work
+
+Create a page called
+العروض والإعلانات
+
+Route
+/offers
+
+This page should show all ad banners and offers in a clean organized layout
+Each offer can have
+image
+title
+description
+button
+link
+active status
+order
+
+Homepage structure
+The homepage must explain the platform clearly and powerfully
+
+Homepage sections
+1 hero section with Grove Street identity
+2 live activity ticker
+3 3D advertisement carousel
+4 featured games
+5 trending top up products
+6 account marketplace preview
+7 wallet explanation
+8 points and ranks explanation
+9 how it works in 3 steps
+10 trust and support section
+11 final call to action
+
+Hero section
+The hero should instantly tell the user what Grove Street is
+Arabic headline
+simple description
+main button to start shopping
+secondary button to sell account or charge wallet
+Subtle music toggle can appear in hero or header
+
+Suggested hero message
+Grove Street
+شارعك الرقمي لشحن الألعاب والخدمات
+
+Description
+اشحن ألعابك واشتري الخدمات الرقمية وتابع طلباتك واجمع النقاط وارتق في الرتب من مكان واحد
+
+Core website features
+The site must include
+
+Authentication
+login
+register
+forgot password
+profile
+admin login logic if mock exists
+
+Wallet
+wallet balance
+charge wallet
+deposit request
+payment method
+transaction history
+deposit status
+accepted
+rejected
+pending
+
+Products
+games
+digital services
+social media services
+subscriptions
+top up packages
+product details
+buy button
+required user input fields
+price
+stock status
+category filters
+
+Orders
+order history
+order details
+status
+pending
+processing
+completed
+cancelled
+refunded
+
+Points system
+User earns points after purchases
+Points should not be too easy
+Show current points
+Show rank progress
+Show available rewards
+Show locked rewards
+Allow redeeming rewards
+Show success animation on redeem
+
+Ranks
+Bronze
+Silver
+Gold
+Platinum
+Diamond
+Legend
+
+Show current rank
+Show next rank progress
+Show rank benefits
+Show rank badge
+
+Account marketplace
+Users can list game accounts for sale
+Fields
+game
+title
+price
+rank
+level
+region
+description
+images
+status
+seller
+verification
+admin approval
+
+Account listing statuses
+pending review
+approved
+rejected
+sold
+
+Verification
+Users can submit ID image and selfie image
+Admin reviews verification
+Approved users get normal verified badge
+Admin or owner gets special owner badge
+
+Badges
+Owner badge for main admin
+Normal verified badge for approved users
+Rank badges for ranks
+
+Support
+support tickets
+ticket title
+description
+status
+messages
+admin reply
+closed or open state
+
+Settings
+theme settings
+music toggle
+sound effects toggle
+volume settings
+profile settings
+contact links
+privacy info
+
+Admin dashboard
+Admin should manage
+users
+orders
+wallet deposits
+products
+games
+account listings
+ads
+rewards
+points
+ranks
+verification requests
+support tickets
+site settings
+live activity messages
+
+Admin logic
+Admin dashboard should only appear for admin user
+Normal user should not see admin links
+If mock auth exists use it
+If backend exists prepare for API integration later
+
+Data safety
+Fix all frontend data shape errors globally
+No page should crash if API returns object instead of array
+Create a safe utility to convert data to array
+
+Example
+If data is array use it
+If data.data is array use it
+If data.items is array use it
+If data.games is array use it
+If data.products is array use it
+Otherwise use empty array
+
+Fix all unsafe uses
+.map
+.filter
+.reduce
+.find
+.some
+.every
+
+Pages to check
+home
+games
+products
+accounts
+wallet
+orders
+points
+profile
+admin
+offers
+support
+settings
+
+If API is missing show fallback mock data or clean empty state
+Never show blank broken page
+
+Frontend only mode
+The site must run even without backend
+Use fallback mock data when API fails
+Do not require API server just to view the frontend
+If API endpoints exist keep them but handle errors safely
+
+API ready structure
+Prepare data models for future API integration
+
+Main data models
+Users
+Games
+Products
+Orders
+WalletTransactions
+DepositRequests
+AccountListings
+Rewards
+Ranks
+SupportTickets
+VerificationRequests
+Advertisements
+LiveActivities
+SiteSettings
+
+Advertisements model
+id
+title
+description
+imageUrl
+buttonText
+buttonLink
+isActive
+order
+createdAt
+
+Live activity model
+id
+type
+username
+message
+amount
+productName
+createdAt
+
+Order model
+id
+userId
+productId
+productName
+price
+status
+requiredData
+earnedPoints
+createdAt
+
+User model
+id
+name
+username
+email
+phone
+avatar
+walletBalance
+points
+rank
+isVerified
+isAdmin
+isOwner
+createdAt
+
+Mobile first requirements
+The mobile version is the most important
+
+Test sizes
+360px
+390px
+430px
+768px
+1024px
+desktop
+
+Fix
+horizontal scrolling
+overlapping text
+tiny buttons
+broken nav
+cropped ads
+heavy background
+unreadable cards
+tables too wide
+modals too large
+bottom nav covering content
+
+Desktop requirements
+Desktop should look premium
+Use a clean sidebar or strong header layout
+Cards should be spacious
+Sections should breathe
+Animations should be smooth
+Do not crowd everything
+
+Login page
+Login page should feel premium
+It should show Grove Street branding
+Email input
+Password input
+Show hide password
+Login button
+Create account link
+Forgot password link
+Optional background character or street effect
+No clutter
+
+Register page
+Name
+email
+phone
+password
+confirm password
+create account button
+link to login
+clean validation
+
+Profile page
+Show
+avatar
+name
+username
+email
+phone
+wallet balance
+points
+rank
+verification badge
+quick actions
+recent orders
+recent transactions
+settings shortcuts
+
+Wallet page
+Show
+balance
+charge wallet button
+deposit request form
+payment methods
+transaction list
+deposit status
+clear instructions
+
+Points page
+Show
+current points
+rank
+rank progress
+available rewards
+locked rewards
+redeem button
+points history
+reward redemption success animation
+
+Offers page
+Show
+ad banners
+active offers
+special deals
+top up campaigns
+points campaigns
+account market deals
+
+Admin page
+Show dashboard cards
+orders count
+users count
+revenue mock number
+pending deposits
+pending verification
+pending account listings
+latest tickets
+quick actions
+
+Contact links
+Add official contact links in footer settings support and sidebar if suitable
+
+Instagram
+thaerstore
+https://www.instagram.com/thaerstore
+
+WhatsApp
+962779460107
+https://wa.me/962779460107
+
+Labels
+إنستغرام
+واتساب
+تواصل معنا
+الدعم المباشر
+
+Performance requirements
+Do not make the website heavy
+No huge 3D library unless already used
+Use CSS SVG or lightweight animation
+Reduce animations on low performance
+Respect prefers reduced motion if possible
+Keep mobile smooth
+
+Local files
+Prepare folders
+
+public/audio/background.mp3
+public/audio/sfx/purchase.mp3
+public/audio/sfx/big-purchase.mp3
+public/audio/sfx/rank-up.mp3
+public/audio/sfx/reward.mp3
+public/audio/sfx/success.mp3
+public/audio/sfx/error.mp3
+
+public/images/ads/
+public/images/logo/
+
+If files do not exist the app must not crash
+
+Important final behavior
+When user buys product
+deduct wallet balance
+create order
+add points
+show success animation
+play purchase sound if enabled
+add live activity ticker message
+update order list
+
+When user reaches new rank
+show rank up animation
+play rank up sound
+add ticker message
+
+When user redeems reward
+deduct points
+create reward order
+show reward success animation
+play reward sound
+add ticker message
+
+What not to do
+Do not copy GTA assets
+Do not use copyrighted music by default
+Do not use CJ image directly
+Do not use official game logos unless user provides assets
+Do not make the site messy
+Do not overuse neon
+Do not remove existing working features
+Do not force backend
+Do not break frontend routes
+Do not leave console crashes
+
+Final testing
+Run frontend locally
+Confirm URL
+Check pages
+
+/
+/games
+/offers
+/accounts
+/wallet
+/orders
+/points
+/profile
+/settings
+/support
+/admin
+
+Confirm
+homepage works
+games page works
+offers page exists
+ads appear in 3D cards
+live ticker works
+purchase animation works
+music toggle exists
+sfx settings exist
+green black theme applied
+mobile bottom navigation works
+desktop sidebar works
+no map is not a function
+no filter is not a function
+no blank pages
+no console crashes
+
+Final result
+The final site should feel like a premium Arabic street gaming marketplace called Grove Street
+It should be clear beautiful fast mobile friendly and alive
+It should sell game top ups digital services accounts rewards and wallet features in a strong green and black brand identity
